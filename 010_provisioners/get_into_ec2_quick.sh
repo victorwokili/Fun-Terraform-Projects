@@ -1,0 +1,1 @@
+ssh ec2-user@$(terraform output -raw public_ip1) -i /Users/victorw/.ssh/terraform
